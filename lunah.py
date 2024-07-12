@@ -2,7 +2,6 @@ with open('Luhn.txt', 'r') as f:
     data = f.readlines()
     data2 = []
     for i in data:
-        i.rstrip('\n')
         data2.append(i.rstrip('\n'))
 
 
